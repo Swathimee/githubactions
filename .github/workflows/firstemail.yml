@@ -1,0 +1,11 @@
+name: Custom Workflow
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23ds2000065@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
