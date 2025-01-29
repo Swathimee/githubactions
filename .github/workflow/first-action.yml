@@ -1,0 +1,8 @@
+name: Creating a new action
+
+on: [push]
+jobs:
+  test:
+    steps:
+      - name: 23ds2000065@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
